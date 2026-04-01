@@ -1,0 +1,63 @@
+{
+  "name": "@theyahia/vk-ads-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for VK Ads API — campaigns, ads, statistics, targeting, budgets. 8 tools. Bearer token auth.",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "vk-ads-mcp": "dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/index.ts",
+    "start": "node dist/index.js",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.0",
+    "zod": "^3.24.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0",
+    "vitest": "^3.1.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "model-context-protocol",
+    "modelcontextprotocol",
+    "claude",
+    "ai",
+    "llm",
+    "anthropic",
+    "cursor",
+    "ai-tools",
+    "ai-agent",
+    "russian-api",
+    "vk",
+    "vk-ads",
+    "advertising",
+    "marketing",
+    "typescript"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theYahia/vk-ads-mcp.git"
+  },
+  "homepage": "https://github.com/theYahia/vk-ads-mcp#readme",
+  "author": "theYahia (https://github.com/theYahia)"
+}
