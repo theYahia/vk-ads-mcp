@@ -1,7 +1,7 @@
 {
   "name": "@theyahia/vk-ads-mcp",
-  "version": "1.0.0",
-  "description": "MCP server for VK Ads API — campaigns, ads, statistics, targeting, budgets. 8 tools. Bearer token auth.",
+  "version": "1.0.1",
+  "description": "MCP server for VK Ads — campaigns, targeting, budgets, statistics (Russia)",
   "type": "module",
   "main": "dist/index.js",
   "bin": {
@@ -51,7 +51,8 @@
     "vk-ads",
     "advertising",
     "marketing",
-    "typescript"
+    "typescript",
+    "api"
   ],
   "license": "MIT",
   "repository": {
