@@ -1,6 +1,6 @@
-# @theyahia/vk-ads-mcp
+# VK Ads MCP — управление рекламой ВКонтакте через нейросеть
 
-MCP-сервер для **VK Ads API v2** (`ads.vk.com/api/v2`) — кампании, группы объявлений, объявления, статистика, баланс. 8 инструментов.
+Если вы искали, как подключить рекламный кабинет VK Ads к ИИ-ассистенту, спрашивать про открутку и остаток бюджета обычными словами или собирать отчёты по кампаниям без выгрузок в Excel — это оно. 8 инструментов поверх **VK Ads API v2** (`ads.vk.com/api/v2`): кампании, группы объявлений, объявления, статистика и баланс.
 
 [![npm](https://img.shields.io/npm/v/@theyahia/vk-ads-mcp)](https://www.npmjs.com/package/@theyahia/vk-ads-mcp)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -113,3 +113,4 @@ npm run dev        # tsx src/index.ts (читает .env — см. .env.example)
 ## Лицензия
 
 MIT
+
