@@ -114,3 +114,6 @@ npm run dev        # tsx src/index.ts (читает .env — см. .env.example)
 
 MIT
 
+---
+
+Telegram: [@vhodvai](https://t.me/vhodvai)
