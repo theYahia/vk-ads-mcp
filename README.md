@@ -1,17 +1,3 @@
-> ## 🗄 Репозиторий заархивирован
->
-> Разработка переехала в **[theYahia/WWmcp](https://github.com/theYahia/WWmcp)** — монорепозиторий MCP-серверов для незападных API: СНГ, MENA, Африка, LATAM, Юго-Восточная Азия. Общее ядро `@theyahia/mcp-core`, единый CI, единый релизный конвейер.
->
-> Актуальная версия того, что лежало здесь: [`servers/vk-ads/`](https://github.com/theYahia/WWmcp/tree/main/servers/vk-ads)
->
-> Пакет в npm прежний — [`@theyahia/vk-ads-mcp`](https://www.npmjs.com/package/@theyahia/vk-ads-mcp), ставится и работает как раньше.
-> Здесь больше ничего не обновляется. Задачи и pull request'ы — в WWmcp.
->
-> **Archived — development moved to [theYahia/WWmcp](https://github.com/theYahia/WWmcp),** a monorepo of MCP servers for non-Western APIs.
-> The current version of this package now lives at [`servers/vk-ads/`](https://github.com/theYahia/WWmcp/tree/main/servers/vk-ads).
-> The npm package [`@theyahia/vk-ads-mcp`](https://www.npmjs.com/package/@theyahia/vk-ads-mcp) is unchanged.
-> Please open issues and pull requests there.
-
 # VK Ads MCP — управление рекламой ВКонтакте через нейросеть
 
 Если вы искали, как подключить рекламный кабинет VK Ads к ИИ-ассистенту, спрашивать про открутку и остаток бюджета обычными словами или собирать отчёты по кампаниям без выгрузок в Excel — это оно. 8 инструментов поверх **VK Ads API v2** (`ads.vk.com/api/v2`): кампании, группы объявлений, объявления, статистика и баланс.
